@@ -74,11 +74,6 @@
     <lastmod>2022-08-25T13:02:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/timeline/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="fr"
                 href="https://fr.ecthrwatch.org/chronologie/"
                 />
@@ -260,7 +255,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fr.ecthrwatch.org/chronologie/constant-meheut-journaliste-au-new-york-times-comprend-la-fraude-une-chance-sur-quatre/"
+                href="https://fr.ecthrwatch.org/chronologie-des-faits/constant-meheut-journaliste-au-new-york-times-comprend-la-fraude-une-chance-sur-quatre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/lettres-ouvertes/constant-meheut-journaliste-au-new-york-times-comprend-la-fraude-une-chance-sur-quatre/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -787,13 +787,13 @@
     <lastmod>2022-08-11T21:54:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/timeline/2021-10-05_email_answer_sent_to_messrs_rogalski_and_manjarrez/"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie/2021-10-05_email_answer_sent_to_messrs_rogalski_and_manjarrez/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/chronologie/2021-10-05_email_answer_sent_to_messrs_rogalski_and_manjarrez/"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline/2021-10-05_i_send_the_fbi_scans_of_my_id_cards_to_identify_myself/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -930,11 +930,6 @@
   </url><url>
     <loc>https://zh.ecthrwatch.org/frauds-and-crimes/</loc>
     <lastmod>2022-03-25T15:33:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/mcdonalds-pattern-of-racketeering-activity/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1154,13 +1149,13 @@
     <lastmod>2022-08-09T09:22:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/timeline/2019-09-27_answer_from_french_anticorruption_association_anticor/"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie/2019-09-27_answer_from_french_anticorruption_association_anticor/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/chronologie/2019-09-27_answer_from_french_anticorruption_association_anticor/"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline/2019-09-27_answer_from_french_anticorruption_association_anticor/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -1458,11 +1453,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/timeline/2017-07-04_0142_0800_email_reply_from_strickler/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh"
                 href="https://zh.ecthrwatch.org/shijianzhou/2017-07-04_0142_0800_email_reply_from_strickler/"
                 />
@@ -1473,11 +1463,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://fr.ecthrwatch.org/tags/to-translate/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/to-translate/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -2038,6 +2023,40 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zh.ecthrwatch.org/series/"
+                />
+  </url><url>
+    <loc>https://zh.ecthrwatch.org/authors/vincent-b-le-corre/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/authors/vincent-b-le-corre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/authors/vincent-b-le-corre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zh.ecthrwatch.org/authors/vincent-b-le-corre/"
+                />
+  </url><url>
+    <loc>https://zh.ecthrwatch.org/authors/x/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/authors/x/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/authors/x/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zh.ecthrwatch.org/authors/x/"
                 />
   </url><url>
     <loc>https://zh.ecthrwatch.org/guanyu/</loc>
