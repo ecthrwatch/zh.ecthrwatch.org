@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="zh-cn"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noarchive"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet"><title>私人电子邮件用户名已从 URL 历史中移除 | ECTHRwatch.org</title><meta name="description" content="后端数据迁移曾短暂地将一个个人电子邮件地址的本地部分嵌入到 `/people/` 和 `/parties/` 的 URL slug 中。源代码中的 slug 已重命名；部署仓库的 git 历史已重写，以从每次提交中移除该字符串。"><link rel="canonical" href="https://zh.ecthrwatch.org/jiuzheng/2026-05-18-2214-0800-private-email-username-removal/"><link rel="alternate" hreflang="en" href="https://www.ecthrwatch.org/errata/2026-05-18-2214-0800-private-email-username-removal/"><link rel="alternate" hreflang="fr" href="https://fr.ecthrwatch.org/errata/2026-05-18-2214-0800-private-email-username-removal/"><link rel="alternate" hreflang="zh-cn" href="https://zh.ecthrwatch.org/jiuzheng/2026-05-18-2214-0800-private-email-username-removal/"><link rel="alternate" hreflang="x-default" href="https://www.ecthrwatch.org/errata/2026-05-18-2214-0800-private-email-username-removal/"><meta property="og:site_name" content="ECTHRwatch.org"><meta property="og:title" content="私人电子邮件用户名已从 URL 历史中移除 | ECTHRwatch.org"><meta property="og:description" content="后端数据迁移曾短暂地将一个个人电子邮件地址的本地部分嵌入到 `/people/` 和 `/parties/` 的 URL slug 中。源代码中的 slug 已重命名；部署仓库的 git 历史已重写，以从每次提交中移除该字符串。"><meta property="og:type" content="article"><meta property="og:url" content="https://zh.ecthrwatch.org/jiuzheng/2026-05-18-2214-0800-private-email-username-removal/"><meta property="og:locale" content="zh-cn"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="私人电子邮件用户名已从 URL 历史中移除 | ECTHRwatch.org"><meta name="twitter:description" content="后端数据迁移曾短暂地将一个个人电子邮件地址的本地部分嵌入到 `/people/` 和 `/parties/` 的 URL slug 中。源代码中的 slug 已重命名；部署仓库的 git 历史已重写，以从每次提交中移除该字符串。"><script>
+      (function () {
+        var pref = localStorage.getItem("theme") || "auto";
+        var resolved = pref === "auto"
+          ? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+          : pref;
+        document.documentElement.setAttribute("data-theme", resolved);
+      })();
+    </script><link rel="stylesheet" href="/_astro/Base.DL9meBB_.css">
+<link rel="stylesheet" href="/_astro/_..BgH5Jut5.css"></head> <body> <nav class="nav"> <div class="nav-inner">  <div class="nav-row-1"> <a href="/" class="nav-brand">ECTHRwatch.org</a> <button class="nav-hamburger" type="button" aria-expanded="false" aria-label="Menu"> <span class="hamburger-label">Menu &rarr;</span> <span class="hamburger-icon"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button> <div class="nav-controls"> <div class="theme-toggle" role="group" aria-label="Theme"> <button type="button" data-theme-set="light">浅色</button> <button type="button" data-theme-set="dark">深色</button> <button type="button" data-theme-set="auto">自动</button> </div> <script>
+(function () {
+  function getSystemTheme() {
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function applyTheme(pref) {
+    var resolved = pref === "auto" ? getSystemTheme() : pref;
+    document.documentElement.setAttribute("data-theme", resolved);
+
+    document.querySelectorAll("[data-theme-set]").forEach(function (btn) {
+      btn.classList.toggle("active", btn.getAttribute("data-theme-set") === pref);
+    });
+  }
+
+  var stored = localStorage.getItem("theme") || "auto";
+  applyTheme(stored);
+
+  document.querySelectorAll("[data-theme-set]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pref = btn.getAttribute("data-theme-set");
+      localStorage.setItem("theme", pref);
+      applyTheme(pref);
+    });
+  });
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+    if ((localStorage.getItem("theme") || "auto") === "auto") {
+      applyTheme("auto");
+    }
+  });
+})();
+</script> <div class="lang-switcher"> <button type="button" class="lang-switcher-btn" aria-expanded="false"> 简体中文 </button> <div class="lang-dropdown"> <a href="https://www.ecthrwatch.org/errata/2026-05-18-2214-0800-private-email-username-removal/"> English </a><a href="https://fr.ecthrwatch.org/errata/2026-05-18-2214-0800-private-email-username-removal/"> Français </a><a href="https://it.ecthrwatch.org/errata-corrige/2026-05-18-2214-0800-private-email-username-removal/"> Italiano </a><a href="https://zh.ecthrwatch.org/jiuzheng/2026-05-18-2214-0800-private-email-username-removal/" class="current"> 简体中文 </a> </div> </div> </div> </div> <ul class="nav-links"> <li><a href="/shishi-jingguo-yu-gongkaixin-shijianxian/">事实经过与公开信时间线</a></li><li><a href="/cia-mi6-ji-faguo-qingbao-jigou-canyu/">CIA、MI6与法国情报参与</a></li><li><a href="/xingxun-yu-sixing-fengxian-zai-zhongguo/">刑讯与死刑风险在中国</a></li><li><a href="/zhengzai-jinxing-de-falu-chengxu/">正在进行的司法程序</a></li><li><a href="/rengong-zhineng-fenxi-queren-maidanglao-fanzui/">人工智能分析</a></li> </ul> </div> </nav> <script>
+(function () {
+  // Hamburger toggle
+  var hamburger = document.querySelector(".nav-hamburger");
+  var navLinks = document.querySelector(".nav-links");
+  if (hamburger && navLinks) {
+    hamburger.addEventListener("click", function () {
+      var expanded = hamburger.getAttribute("aria-expanded") === "true";
+      hamburger.setAttribute("aria-expanded", String(!expanded));
+      navLinks.classList.toggle("open");
+    });
+  }
+
+  // Language switcher dropdown
+  var langBtn = document.querySelector(".lang-switcher-btn");
+  var langDropdown = document.querySelector(".lang-dropdown");
+  if (langBtn && langDropdown) {
+    langBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var expanded = langBtn.getAttribute("aria-expanded") === "true";
+      langBtn.setAttribute("aria-expanded", String(!expanded));
+      langDropdown.classList.toggle("open");
+    });
+
+    document.addEventListener("click", function () {
+      langBtn.setAttribute("aria-expanded", "false");
+      langDropdown.classList.remove("open");
+    });
+  }
+})();
+</script> <main> <article class="page-container errata-detail" data-astro-cid-iwstzw75> <p class="errata-detail-back" data-astro-cid-iwstzw75><a href="/jiuzheng/" data-astro-cid-iwstzw75>← 纠正 — 重大公开记录修改</a></p> <p class="errata-detail-date" data-astro-cid-iwstzw75>2026-05-18</p> <h1 data-astro-cid-iwstzw75>私人电子邮件用户名已从 URL 历史中移除</h1> <div class="prose" data-astro-cid-iwstzw75> <p><strong>事情经过。</strong> 一次后端数据迁移在 <code>/people/</code> 和 <code>/parties/</code> 索引页面上引入了 URL slug，其中嵌入了本网站运营者一个个人电子邮件地址的本地部分 （即 <code>@</code> 之前的部分）。受影响的 slug 在网站上短暂上线。一旦发现该问题，这些 slug 立即被重命名，使本地部分不再出现在任何 URL 中，并且底层的”相关方”数据也被合并，使衍生自电子邮件的 slug 形式不再被使用。</p>
+<p><strong>公开记录中的变更内容。</strong> 英文和法文公开部署仓库
+（<code>ecthrwatch/www.ecthrwatch.org</code> 和 <code>ecthrwatch/fr.ecthrwatch.org</code>）
+的 git 历史已被重写 ，以从每次提交的文件路径、文件内容和提交消息中移除受影响字符串的每一处出现。被重写的历史随后被强制推送  至 GitHub。网站本身未受影响——只清理了部署仓库中的历史记录。</p>
+<p><strong>原因。</strong> 私人电子邮件的本地部分不应出现在网站的公开记录中，前提是运营者并未在该网站上知情地公开此类信息。此次编辑  范围有限：仅移除了一个地址的本地部分；其他内容、归属或事实材料均未被修改。</p>
+<p><strong>注意事项。</strong> 清理之前历史的旧提交 SHA 在强制推送后最长可达 90 天内仍可通过直接 SHA URL 在 GitHub 上访问，直到 GitHub 的内部垃圾回收  将其移除。互联网档案馆（archive.org）也可能在受影响的窗口期间捕获了受影响的 URL；那里适用单独的撤下程序。</p>
+<p><strong>后续的二次失误。</strong> 在构建公开 errata 页面本身（即本页面的前身）时，受影响地址的本地部分在起草过程中被无意中重新输入到页面内容中。该错误在几分钟内被发现并修复：页面内容被修改、重新部署，且部署仓库的 git 历史被第二次清理。此条目以其当前形式反映了已纠正的状态。</p> </div> </article> </main> <footer class="footer"> <div class="footer-links">  <a href="/qitawangzhan/">其他网站</a> <span class="footer-sep"> | </span> <a href="/xiangguan-falv-fagui/">相关法律法规</a> <span class="footer-sep"> | </span> <a href="/timeline-of-events-and-open-letters/latest-crime-report-criminal-rico-case-targeting-mcdonalds/">犯罪报告草稿（英文）</a> <span class="footer-sep"> | </span> <a href="/zhengju-liebiao/">证据列表</a> <span class="footer-sep"> | </span> <a href="/xiangxi-shishi-jingguo-yu-gongkaixin-shijianxian/">详细时间线</a> <span class="footer-sep"> | </span> <a href="/jiuzheng/">纠正</a>  </div> <div class="footer-org">European Court of Human Rights Watch</div> <div>&copy; 2021-2026 <a href="https://www.lushengqiao.com/">陆圣乔</a></div> </footer> </body></html>
